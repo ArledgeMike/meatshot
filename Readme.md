@@ -1,6 +1,6 @@
 Meat-Shot version 0.1 scattergun
 ===========
-<img src ="https://raw.githubusercontent.com/ArledgeMike/Meat-Grinder/master/images/meat-shot-cover.png" />
+<img src ="https://raw.githubusercontent.com/ArledgeMike/meatshot/master/images/meat-shot-cover.png" />
 
 
 <h2>Meat-Shot</h2> <p>Version .1 - scattergun</p>

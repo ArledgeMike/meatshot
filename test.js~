@@ -1,1 +1,0 @@
-return var b = document.getElementById('isi_footer') if(b){ b.style.visibility='hidden'}

@@ -19,9 +19,10 @@ class Meat_Shot
 
     puts "\n\nIs there anything special we should do on this range?"
     @js = gets.chomp.to_s
-    @js = File.read(@js)
-
-    puts "#{@js}"
+	if !@js.empty?
+      @js = File.read(@js)
+    end
+    
 
 
     @driver = Selenium::WebDriver.for :firefox
@@ -42,10 +43,12 @@ class Meat_Shot
   def delete_from_working_array
     puts "Delete any pages"
     @del = gets.chomp.split(",")
-    @del.each_with_index do |x, index|
+    if !@del.empty?
+	@del.each_with_index do |x, index|
       n = x.to_i - index
       @el.delete_at n
     end
+	end
     display_working_array
     ready
   end

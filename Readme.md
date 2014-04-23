@@ -17,7 +17,7 @@ Meat-Shot version 0.1 scattergun
 <li>The linesman will need to know if you will be performing any trick shots on the range. Here you will enter the location of the "test.js" file which is a JS file that will run custom JS on every page. Good for pressing buttons, or closing/opening modals.</li>
 <li>A list of targets will appear. Enter the number next to the URL that you would like to omit. Just press "Enter" if everything is good.</li>
 <li>When ready on the line, the linesman will pull the clay pigeons.</li>
-<ol>
+</ol>
 
 <h4>Dependencies</h4>
 <p>gem install selenium-webdriver</p>
